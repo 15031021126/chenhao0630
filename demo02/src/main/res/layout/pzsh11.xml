@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/pzshimg"
+            android:layout_width="151dp"
+            android:layout_height="174dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/name3"
+            android:maxLines="1"
+            android:layout_width="150dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="aaa" />
+
+        <TextView
+
+            android:id="@+id/pzshprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="aaa"
+            android:textColor="#DA0F0F"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
